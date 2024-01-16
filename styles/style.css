@@ -25,7 +25,7 @@ body{
 /* Headear style start */
 header{
     max-width: 1280px;
-    border: 2px solid peru;
+    /* border: 2px solid peru; */
 }
 /* Header style end */
 /* Navber style start */
@@ -70,7 +70,7 @@ nav{
 /* Navbar style end */
 main{
     max-width: 1280px;
-    border: 2px solid rgb(221, 69, 8);
+    /* border: 2px solid rgb(221, 69, 8); */
     /* margin: 20px auto; */
 }
 /* banner style start */
@@ -220,7 +220,112 @@ option{
 }
 /* Choose us style end */
 /* Newsletter style start */
+.newsletter{
+    width: 1170px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-form{
+    width: 500px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin: 50px 20px;
+    padding: 30px;
+}
+.newsletter-form > input{
+    width: 393px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 20px 0;
+}
+.newsletter-form .btn-primary{
+    width: 393px;
+    /* height: 52px; */
+}
+.newsletter-tittle{
+    color: var(--text-title);
+    font-weight: 800;
+    line-height: normal;
+}
+.newsletter-text{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0;
+}
+.newsletter-card{
+    position: relative;
+    margin-right: 45px;
+}
+.newsletter-card img{
+    /* margin-right: 40px; */
+    /* position: relative; */
+}
+.discount{
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: var(--primary-color);
+    right: 130px;
+    margin-top: 170px;
+}
+.discount-save{
+    text-align: center;
+    padding: 15px 0;
+}
+.discount-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+}
+.discount-title{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+/* Footer style start */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid rgb(221, 69, 8); */
+    text-align: center;
+}
+.footer-tourzen{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 120px;
+}
+.footer-text{
+    text-align: center;
+    margin: 20px;
+}
+.social-link{
+    text-align: center;
+}
+.social-link > a{
+    text-decoration: none;
+    padding: 5px;
+}
 
+footer > hr{
+    margin: 20px 100px;
+}
+.copywrite{
+    margin:60px auto ;
+}
 /* Newsletter style end */
 /* Responsive style */
     @media screen and (max-width: 600px) {

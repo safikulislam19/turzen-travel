@@ -182,6 +182,46 @@ option{
     margin: 10px;
 }
 /* choose your destination style end */
+/* choose Us style end */
+.chooseus-banner{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.chooseus-card{
+    width: 40%;
+    height: 220px;
+    /* border: 2px solid saddlebrown; */
+}
+.chooseus-card img{
+    margin-bottom: 20px;
+}
+.chooseus-title{
+    margin: 10px 0;
+}
+.hoter{
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.map{
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);    
+}
+.tag{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+/* Choose us style end */
+/* Newsletter style start */
+
+/* Newsletter style end */
 /* Responsive style */
     @media screen and (max-width: 600px) {
         nav,

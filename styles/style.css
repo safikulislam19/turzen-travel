@@ -1,0 +1,149 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+/* Shared Style */
+:root{
+    --primary-color:#FF5400;
+    --secondary-color:#424247;
+    --text-title:#131318;
+    --text-color:#FFF;
+}
+.btn-primary{
+    border: 0;
+    border-radius: 8px;
+    background: var(--primary-color);
+    height: 3.25rem;
+    width: 13.25rem;
+}
+body{
+    font-family: mulish;
+}
+/* Headear style start */
+header{
+    max-width: 1280px;
+    border: 2px solid peru;
+}
+/* Header style end */
+/* Navber style start */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.50rem auto;
+}
+.TourZen{
+    display: flex;
+    color: var(--text-title);
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-left: 60px;
+}
+.menu{
+    
+    margin-right: 60px;
+}
+.menu>ul{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.list-items{
+    display: inline-flex;
+    margin-right: 10px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.list-items:first-child a{
+    color: var(--primary-color);
+}
+.menu-items{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 400;
+    line-height: normal;
+}
+/* Navbar style end */
+main{
+    max-width: 1280px;
+    border: 2px solid rgb(221, 69, 8);
+    /* margin: 20px auto; */
+}
+/* banner style start */
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    /* background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png'); */ 
+    /* Attention pls: Bacground use kore linear-gredient use korle thik vabe kaj kore na kno? */
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    margin: 10PX auto;
+    border-radius: 16px;
+    
+}
+.banner-body-text{
+    text-align: center;
+    margin-top: 150px;
+}
+.banner-title{
+    color: var(--text-color);
+    font-size: 64px;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 1.25rem;
+}
+.banner-form{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.wherego{
+    width: 174px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+option{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.src-icon{
+    width: 24px;
+    height: 24px;
+    color: #FFF;
+}
+/* banner style end */
+/* Responsive style */
+    @media screen and (max-width: 600px) {
+        nav,
+        .banner-container
+        {
+            flex-direction: column;
+        }
+        /* .banner-container{
+            display: flex;
+            width: 287px;
+            padding: 16px;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px;
+        } */
+    }
+/*  */

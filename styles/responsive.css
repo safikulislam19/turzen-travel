@@ -1,0 +1,164 @@
+@media screen and (max-width:600px) {
+    nav, 
+    .banner-container,
+    .popular-tour,
+    .chooseus-banner,
+    .newsletter,
+    .footer-tourzen
+    {
+        flex-direction: column;
+    }
+    /* mobaile menu */
+    /* .menu #myLinks{
+        display: none;
+    }
+    .menu .list-items .menu-items{
+        float: left;
+        color: #fff;
+        padding: 14px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .menu .list-items .menu-items .icon{
+        float: right;
+    } */
+    /* mobaile menu end*/
+    /* header */
+    
+    /* Banner */
+    .banner-container{
+        width: 630px;
+        height: 500px;
+        margin: 10px;
+        /* background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');  */
+        /* background-size: contain; */
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+        background-repeat: no-repeat;
+    }
+    .banner-body-text{
+        margin: 30px auto 0px;
+    }
+    .banner-text{
+        color: #FFF;
+        text-align: center;
+        font-size: 12px;
+    }
+    .banner-form{
+        margin: 0 auto;
+        flex-direction: column;
+        height: 300px;
+        height: auto;
+        gap: 10px;
+    }
+    .wherego{
+        width: 430px;
+        height: 45px;
+        border-radius: 8px;
+        background: #FFF;
+    }
+    /* popular-tour */
+    /* .popular-tour{
+        width: 630px;
+        width: 100%;
+        height: auto;
+    } */
+    .popular-tour-title, 
+    .popular-tour-text{
+        /* text-align: left; */
+        text-align: justify;
+        margin-left: 10px;
+    }
+    .popular-tour-banner img{
+        margin: 20px 10px;
+        width: 530px;
+    }
+    /* destination */
+    .destination-content{
+        width: 630px;
+    }
+    .destination-title{
+        text-align: center;
+        margin: 0 auto;
+        text-align: justify;
+    }
+    .description-banner{
+        flex-direction: column;
+        
+    }
+    .description-banner img{
+        width: 630px;
+        height: 430px;
+    }
+    /* why choos us */
+    .why-chooseus{
+        width: 630px;
+    }
+    .destination-title{
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    .popular-tour-desc{
+        margin: 0 50px;
+        text-align: center;
+        padding: 10px;
+        text-align: justify;
+        font-size: 18px;
+    }
+    .chooseus-banner{
+        width: 630px;
+        margin: 10px;
+    }
+    .chooseus-card{
+        flex-direction: column;
+        width: 630px;
+    }
+    /* Newsletter */
+    .newsletter{
+        width: 630px;
+    }
+    .newsletter-form {
+        width: 550px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        /* margin: 50px 20px; */
+        padding: 20px;
+    }
+    .newsletter-form > input{
+        width: 550px;
+        height: 52px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        margin: 20px 0;
+    }
+    .newsletter-form .btn-primary{
+        width: 550px;
+    }
+    .newsletter-card{
+        position: relative;
+        /* margin-right: 10px; */
+    }
+    .newsletter-card img{
+        width: 100%;
+        margin: 10px;
+    }
+    .discount-text{
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        align-items: center;
+    }
+    .discount{
+        position: absolute;
+        width: 350px;
+        height: 120px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: var(--primary-color);
+        right: 45px;
+        margin-top: 550px;
+    }
+
+}
